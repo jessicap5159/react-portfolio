@@ -1,4 +1,9 @@
-function Nav() {
+import React from 'react';
+
+function Nav(props) {
+  const {
+    contactSelected, setContactSelected
+  } = props;
   return (
     <header>
       <h2>
@@ -13,14 +18,16 @@ function Nav() {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about">About me</a>
-          </li>
-          <a href="#Portfolio">Portfolio</a>
-          <li>
-            <a href="#contact">Contact</a>
+            <a href="#about" onClick={() => setContactSelected(false)}>About me</a>
           </li>
           <li>
-            <a href="#Resume">Résumé</a>
+            <a href="#Portfolio" onClick={() => setContactSelected(false)}>Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" onClick={() => setContactSelected(true)}>Contact</a>
+          </li>
+          <li>
+            <a href="#Resume" onClick={() => setContactSelected(false)}>Résumé</a>
           </li>
         </ul>
       </nav>
