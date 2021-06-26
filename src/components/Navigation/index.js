@@ -1,37 +1,89 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 
 function Nav(props) {
   const {
-    contactSelected, setContactSelected
+    aboutSelected,
+    setAboutSelected,
+    portfolioSelected,
+    setPortfolioSelected,
+    contactSelected,
+    setContactSelected,
+    resumeSelected,
+    setResumeSelected,
   } = props;
   return (
+    <Router>
     <header>
       <h2>
-        <a href="/">
+        <Link to="/">
           <span role="img" aria-label="wave">
             {" "}
             &#128075;
           </span>{" "}
           Welcome!
-        </a>
+        </Link>
       </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about" onClick={() => setContactSelected(false)}>About me</a>
+            <Link to='/about'
+              onClick={() => {
+                setContactSelected(false) 
+                setResumeSelected(false) 
+                setPortfolioSelected(false) 
+                setAboutSelected(true);
+              }
+                
+              }
+            >
+              About me
+            </Link>
           </li>
           <li>
-            <a href="#Portfolio" onClick={() => setContactSelected(false)}>Portfolio</a>
+            <Link to="/portfolio"
+              onClick={() => {
+                setContactSelected(false) 
+                setResumeSelected(false) 
+                setPortfolioSelected(true) 
+                setAboutSelected(false);
+              }
+            }
+            >
+              Portfolio
+            </Link>
           </li>
           <li>
-            <a href="#contact" onClick={() => setContactSelected(true)}>Contact</a>
+            <Link to="/contact"
+              onClick={() => {
+                setContactSelected(true) 
+                setResumeSelected(false) 
+                setPortfolioSelected(false) 
+                setAboutSelected(false);
+              }
+            }
+            >
+              Contact
+            </Link>
           </li>
           <li>
-            <a href="#Resume" onClick={() => setContactSelected(false)}>Résumé</a>
+            <Link to='/resume'
+              onClick={() => {
+                setContactSelected(false) 
+                setResumeSelected(true) 
+                setPortfolioSelected(false) 
+                setAboutSelected(false);
+              }
+            }
+            >
+              Résumé
+            </Link>
           </li>
         </ul>
       </nav>
     </header>
+    </Router>
   );
 }
 

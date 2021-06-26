@@ -2,13 +2,11 @@ import React from 'react';
 import photo from '../../assets/images/whatsfordinner.png';
 
 
-function Project() {
+function Project({description}) {
   return (
     <section>
     <div>
-          <img
-            src={photo}
-          />
+          <p>{description}</p>
       </div>
     </section>
   );
