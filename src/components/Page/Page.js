@@ -1,8 +1,8 @@
-import About from "../About";
-import Project from "../Project";
-import ContactForm from "../Contact";
-import Resume from "../Resume";
-import Portfolio from "../Portfolio";
+import About from "../About/About";
+import Project from "../Project/Project";
+import ContactForm from "../Contact/Contact";
+import Resume from "../Resume/Resume";
+import Portfolio from "../Portfolio/Portfolio";
 
 export default function page({
   aboutSelected,
@@ -27,5 +27,6 @@ export default function page({
         <Resume></Resume>
       )}
     </div>
+    
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import Nav from "./components/Navigation";
+import Nav from "./components/Navigation/Nav";
 import Page from "./components/Page/Page";
 
 

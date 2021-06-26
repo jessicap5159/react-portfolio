@@ -15,7 +15,7 @@ function Nav(props) {
   } = props;
   return (
     <Router>
-    <header>
+    <header className="flex-row px-1">
       <h2>
         <Link to="/">
           <span role="img" aria-label="wave">
@@ -83,7 +83,9 @@ function Nav(props) {
         </ul>
       </nav>
     </header>
+    
     </Router>
+   
   );
 }
 
