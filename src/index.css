@@ -37,7 +37,7 @@ a:active {
 
 .header {
   font-size: x-large;
- 
+  
 }
 
 h1 {
@@ -59,6 +59,10 @@ h1 {
 }
 .footer {
   background-color: rgb(106, 141, 115);
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+
 }
 .footer p {
   text-align: center;
