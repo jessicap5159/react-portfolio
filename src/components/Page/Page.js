@@ -6,13 +6,30 @@ import Header from "../Header/header";
 import Footer from "../Footer/Footer";
 
 export default function page({
-  aboutSelected,
-  portfolioSelected,
-  contactSelected
+   
+    aboutSelected,
+    setAboutSelected,
+    portfolioSelected,
+    setPortfolioSelected,
+    contactSelected,
+    setContactSelected,
+    resumeSelected,
+    setResumeSelected
+  
 }) {
   return (
       <>
-      <Header></Header>
+      <Header
+        
+        setAboutSelected={setAboutSelected}
+      
+        setPortfolioSelected={setPortfolioSelected}
+        
+        setContactSelected={setContactSelected}
+        
+        setResumeSelected={setResumeSelected}
+      ></Header>
+      
     <div>
       {aboutSelected ? (
         <>

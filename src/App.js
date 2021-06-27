@@ -32,11 +32,16 @@ const [
         setResumeSelected={setResumeSelected}
       ></Nav>
       <main>
-    <Page aboutSelected={aboutSelected}
-      portfolioSelected={portfolioSelected}
-      contactSelected={contactSelected}
-      resumeSelected={resumeSelected}
-    />
+      <Page
+        aboutSelected={aboutSelected}
+        setAboutSelected={setAboutSelected}
+        portfolioSelected={portfolioSelected}
+        setPortfolioSelected={setPortfolioSelected}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
+      ></Page>
       </main>
     </div>
   );
