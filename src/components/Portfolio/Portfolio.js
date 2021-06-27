@@ -58,11 +58,12 @@ function Portfolio() {
   return (
     <section>
       <div>
-        <h1>Portfolio</h1>
+        <h1 className="fancy-header">Portfolio</h1>
+        <p className="portfolio-text">Click the image to open the app</p>
       </div>
-      {dummyData.map(({ description, title, image, gitHubLink, projectLink }) => (
+      {dummyData.map(({ title, image, gitHubLink, projectLink }) => (
         <Project
-        //   description={description}
+        
           title={title}
           image={image}
           gitHubLink={gitHubLink}

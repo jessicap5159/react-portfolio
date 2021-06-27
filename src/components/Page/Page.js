@@ -17,6 +17,7 @@ export default function page({
       {aboutSelected ? (
         <>
           <About></About>
+          
         </>
       ) : portfolioSelected ? (
         <>

@@ -17,8 +17,8 @@ function Nav(props) {
     <Router>
    
       <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
+        <ul className="nav-list">
+          <li>
             <Link to='/about'
               onClick={() => {
                 setContactSelected(false) 

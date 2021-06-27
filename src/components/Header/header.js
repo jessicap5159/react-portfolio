@@ -5,10 +5,10 @@ export default function Header() {
   return (
     <Router>
     <div>
-      <header className="flex-row px-1">
+      <header className="header">
         <h2>
             
-          <Link to="/">
+          <Link to="/about">
             <span role="img" aria-label="wave">
               {" "}
               &#128075;
