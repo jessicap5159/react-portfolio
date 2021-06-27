@@ -19,7 +19,7 @@ This is an portfolio created with React in order to showcase my coding skills.
 Visit (https://jessicap5159.github.io/react-portfolio/)
 
 ## Credits
-Many thanks to Sean King, Aliff Macapinlac, John Baxter, stackoverflow.com, w3schools.com, sitepoint.com, cssbasics.com, fluentcpp.com, coolers.co, and utf8icons.com. 
+Many thanks to Sean King, Aliff Macapinlac, John Baxter, stackoverflow.com, w3schools.com, sitepoint.com, cssbasics.com, fluentcpp.com, coolers.co, lipsum.com, and utf8icons.com. 
 
 ## License
 Project covered under [MIT license](https://choosealicense.com/licenses/mit/).
