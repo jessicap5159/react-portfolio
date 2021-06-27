@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.f6cdce9b.chunk.css",
+    "main.js": "/photo-port/static/js/main.aaa444e0.chunk.js",
+    "main.js.map": "/photo-port/static/js/main.aaa444e0.chunk.js.map",
+    "runtime-main.js": "/photo-port/static/js/runtime-main.a62ae8b2.js",
+    "runtime-main.js.map": "/photo-port/static/js/runtime-main.a62ae8b2.js.map",
+    "static/js/2.ebf1d2b0.chunk.js": "/photo-port/static/js/2.ebf1d2b0.chunk.js",
+    "static/js/2.ebf1d2b0.chunk.js.map": "/photo-port/static/js/2.ebf1d2b0.chunk.js.map",
+    "static/js/3.7b539f33.chunk.js": "/photo-port/static/js/3.7b539f33.chunk.js",
+    "static/js/3.7b539f33.chunk.js.map": "/photo-port/static/js/3.7b539f33.chunk.js.map",
+    "index.html": "/photo-port/index.html",
+    "static/css/main.f6cdce9b.chunk.css.map": "/photo-port/static/css/main.f6cdce9b.chunk.css.map",
+    "static/js/2.ebf1d2b0.chunk.js.LICENSE.txt": "/photo-port/static/js/2.ebf1d2b0.chunk.js.LICENSE.txt",
+    "static/media/Resume2020.9571df7f.pdf": "/photo-port/static/media/Resume2020.9571df7f.pdf",
+    "static/media/budgettracker.929f7cca.png": "/photo-port/static/media/budgettracker.929f7cca.png",
+    "static/media/notetaker.5565ab83.png": "/photo-port/static/media/notetaker.5565ab83.png",
+    "static/media/passwordgenerator.1fa41a4e.png": "/photo-port/static/media/passwordgenerator.1fa41a4e.png",
+    "static/media/portfoliome.ab4aa9d1.png": "/photo-port/static/media/portfoliome.ab4aa9d1.png",
+    "static/media/superscheduler.1a1bcd66.png": "/photo-port/static/media/superscheduler.1a1bcd66.png",
+    "static/media/whatsfordinner.d8e490e2.png": "/photo-port/static/media/whatsfordinner.d8e490e2.png",
+    "static/media/wonderfulweather.2dd31c86.png": "/photo-port/static/media/wonderfulweather.2dd31c86.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a62ae8b2.js",
+    "static/js/2.ebf1d2b0.chunk.js",
+    "static/css/main.f6cdce9b.chunk.css",
+    "static/js/main.aaa444e0.chunk.js"
+  ]
+}
