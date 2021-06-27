@@ -9,8 +9,8 @@ function Project({description, image, title, gitHubLink, projectLink}) {
           <h2>{title}</h2>
           <p>{description}</p>
        
-          <a href={gitHubLink}>Link to GitHub repo for {title}</a>
-          <a href={projectLink}><img className="img" src={image} alt="image of app"/></a>
+          <a href={gitHubLink} target="_blank">Link to GitHub repo for {title}</a>
+          <a href={projectLink} target="_blank"><img className="img" src={image} alt="image of app"/></a>
       </div>
     </section>
   );

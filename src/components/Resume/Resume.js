@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
-function Resume() {
+import resumePDF  from "../../images/Resume2020.pdf";
+
+function Resume({}) {
     const [dummyData,setDummyData] = useState([{ description: "project1"}, { description: "project2"}, { description: "project3"}])
 
 return (
     <section>
+        
+        <a href={ resumePDF } download="Jessica_Pyne_Resume">Download my full résumé here</a>
+
         <div>
     <h2>Education</h2>
     <ul>
-        <li>B.A. in Psychology from University of California, Santa Cruz (2012)</li>
+        <li>B.A. in Psychology (Magna Cum Laude) from University of California, Santa Cruz (2012)</li>
         <li>Certificate of Completion, Coding Boot Camp, UC Berkeley Ext. (2021, God willing)</li>
     </ul>
     </div>

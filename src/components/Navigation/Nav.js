@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 
 function Nav(props) {
@@ -15,16 +15,7 @@ function Nav(props) {
   } = props;
   return (
     <Router>
-    <header className="flex-row px-1">
-      <h2>
-        <Link to="/">
-          <span role="img" aria-label="wave">
-            {" "}
-            &#128075;
-          </span>{" "}
-          Welcome!
-        </Link>
-      </h2>
+   
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
@@ -82,7 +73,7 @@ function Nav(props) {
           </li>
         </ul>
       </nav>
-    </header>
+ 
     
     </Router>
    
