@@ -4,11 +4,11 @@
 This is an portfolio created with React in order to showcase my coding skills. 
 
 
-![Screenshot of app](../public/src/images/screenshot.png "React Portfolio")
+![Screenshot of app](../../../public/src/images/screenshot.png "React Portfolio")
 
 
 ## Table of Contents
-* [Installation and Usage](#installation and usage)
+* [Installation/Usage](#installation)
 * [Credits](#credits)
 * [License](#license)
 * [Contributing](#contributing)
