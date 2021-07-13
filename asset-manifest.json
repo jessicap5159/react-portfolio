@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.f6cdce9b.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.aaa444e0.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.aaa444e0.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.29187192.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.29187192.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.578751be.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.578751be.js.map",
     "static/js/2.ebf1d2b0.chunk.js": "/react-portfolio/static/js/2.ebf1d2b0.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/notetaker.5565ab83.png": "/react-portfolio/static/media/notetaker.5565ab83.png",
     "static/media/passwordgenerator.1fa41a4e.png": "/react-portfolio/static/media/passwordgenerator.1fa41a4e.png",
     "static/media/portfoliome.ab4aa9d1.png": "/react-portfolio/static/media/portfoliome.ab4aa9d1.png",
+    "static/media/pro-team.1e71ba1c.png": "/react-portfolio/static/media/pro-team.1e71ba1c.png",
     "static/media/superscheduler.1a1bcd66.png": "/react-portfolio/static/media/superscheduler.1a1bcd66.png",
     "static/media/whatsfordinner.d8e490e2.png": "/react-portfolio/static/media/whatsfordinner.d8e490e2.png",
     "static/media/wonderfulweather.2dd31c86.png": "/react-portfolio/static/media/wonderfulweather.2dd31c86.png"
@@ -25,6 +26,6 @@
     "static/js/runtime-main.578751be.js",
     "static/js/2.ebf1d2b0.chunk.js",
     "static/css/main.f6cdce9b.chunk.css",
-    "static/js/main.aaa444e0.chunk.js"
+    "static/js/main.29187192.chunk.js"
   ]
 }
