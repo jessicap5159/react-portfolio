@@ -1,7 +1,7 @@
 ## React-Portfolio
 
 ## Description
-This is an portfolio created with React in order to showcase my coding skills. 
+This is a portfolio created with React in order to showcase my coding skills. 
 
 
 ![Screenshot of app](./public/screenshot.png "React Portfolio")
